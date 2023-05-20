@@ -99,13 +99,13 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
     <td class="custom-td duration"></td>
     <td class="custom-td expected-return"></td>
   </tr>
-</tbody>```
+</tbody>
 
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
 1. Add an if else statement in the addDelivery function, example below adds a scooter and a truck
 
-```  if (vehicleType === 'motorcycle') {
+ if (vehicleType === 'motorcycle') {
     vehicleIcon = '<i class="bi bi-bicycle"></i>';
   } else if (vehicleType === 'truck') {
     vehicleIcon = '<i class="bi bi-truck"></i>';
@@ -113,7 +113,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
     vehicleIcon = '<i class="bi bi-scooter"></i>';
   } else {
     vehicleIcon = '<i class="bi bi-car-front"></i>';
-  }```
+  }
 
 Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has bicycle icon as I found no motorcycle icon.
 
@@ -123,7 +123,7 @@ Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has 
   if (!vehicleRegex.test(vehicle)) {
       alert('Vehicle type must be either "car", "truck", "scooter" or "motorcycle".');
       return false;
-}```
+}
 
 **Change from Input to dropdown in Schedule Delivery**: To change the vehicle input field to a dropdown menu, follow the steps below.
 
@@ -132,7 +132,7 @@ Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has 
 
 Change it to:
 
-<td><select name="vehicle">
+```<td><select name="vehicle">
       <option value="car">Car</option>
       <option value="motorcycle">Motorcycle</option>
       <option value="truck">Truck</option>
@@ -151,7 +151,7 @@ const vehicle = $('select[name="vehicle"]').val();
 
 Navbar is set up so you can replace the '#' with links, example below.
 
-<ul class="dropdown-menu">
+```<ul class="dropdown-menu">
     <li><a class="navbar-sub-menu-item" href="https://www.google.com/">Search</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.youtube.com/">Add</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.w3schools.com/">Remove</a></li>
