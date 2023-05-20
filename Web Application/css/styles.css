@@ -1,0 +1,109 @@
+/*Specified element styles*/
+
+.text-element {
+    font-family: Calibri;
+    color: #212529;
+}
+
+.navbar-font {
+    font-family: Consolas;
+}
+
+.navbar-menu-item {
+    background-color: #0E8EA8;
+    color: #fff;
+}
+
+.navbar-sub-menu-item {
+    background-color: #83D1E1;
+    color: #212529;
+}
+
+.custom-table {
+    border: thin solid #212529;
+}
+
+.custom-table .custom-th {
+    font-family: Consolas;
+    background-color: #0E8EA8;
+    color: #fff;
+}
+
+.custom-table .custom-td {
+    font-family: Calibri;
+    background-color: #83D1E1;
+    color: #212529;
+}
+
+.positive-button {
+    font-family: Consolas;
+    background-color: #198754;
+}
+
+.confirm-button {
+    color: #fff;
+}
+
+.negative-button {
+    font-family: Consolas;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/*Company logo*/
+.logo {
+    background-image: url("Company logo.png");
+    /* Adjust height */
+    height: 25%;
+    /* Adjust width */
+    width: 25%;
+    position: absolute;
+    left: -2%;
+    top: 0%;
+    z-index: -1;
+}
+
+/* Button gap */
+.custom-gap {
+    margin-right: 88%;
+}
+
+.custom-gap1 {
+    margin-left: 95%
+}
+
+.custom-gap3 {
+    margin-left: 95%;
+}
+
+/* Ensures tables being same size */
+table {
+    width: 100%;
+    overflow: hidden
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Adding an underline on the schedule delivery board */
+.underline-input input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 0;
+}
+
+#schedule-delivery input,
+#schedule-delivery select {
+    background-color: #83D1E1;
+    color: #212529;
+}
+/* Hover and select effects */
+.custom-table tr:hover .custom-td {
+    background-color: rgb(91, 228, 228);
+}
+.custom-table tr.selected .custom-td {
+    background-color: rgb(49, 172, 172);
+}
