@@ -78,7 +78,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 
 2. Modify the HTML for the table body (<tbody id="staff-table">) to include the hardcoded staff members, example below.
 
-<tbody id="staff-table">
+'<tbody id="staff-table">
   <tr>
     <td class="custom-td"><img src="path/to/image1.jpg" alt="Staff Member 1"></td>
     <td class="custom-td">John</td>
@@ -99,7 +99,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
     <td class="custom-td duration"></td>
     <td class="custom-td expected-return"></td>
   </tr>
-</tbody>
+</tbody>'
 
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
