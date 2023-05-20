@@ -105,7 +105,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
 1. Add an if else statement in the addDelivery function, example below adds a scooter and a truck
-```html
+```javascript
  if (vehicleType === 'motorcycle') {
     vehicleIcon = '<i class="bi bi-bicycle"></i>';
   } else if (vehicleType === 'truck') {
