@@ -99,7 +99,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
     <td class="custom-td duration"></td>
     <td class="custom-td expected-return"></td>
   </tr>
-</tbody>
+</tbody>```
 
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
@@ -119,7 +119,7 @@ Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has 
 
 2. Modify the validateDelivery function to include your new option, example below adds a scooter and a truck.
 
-```const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
+const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
   if (!vehicleRegex.test(vehicle)) {
       alert('Vehicle type must be either "car", "truck", "scooter" or "motorcycle".');
       return false;
@@ -137,7 +137,7 @@ Change it to:
       <option value="motorcycle">Motorcycle</option>
       <option value="truck">Truck</option>
     </select>
-</td>
+</td>```
 
 2. Replace the JavaScript codes in the createDeliveryDriver and validateDelivery;
 
@@ -155,7 +155,7 @@ Navbar is set up so you can replace the '#' with links, example below.
     <li><a class="navbar-sub-menu-item" href="https://www.google.com/">Search</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.youtube.com/">Add</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.w3schools.com/">Remove</a></li>
-</ul>
+</ul>```
 
 ## Contact
 
