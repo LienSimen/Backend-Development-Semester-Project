@@ -77,8 +77,8 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 1. Remove or comment out the code that fetches data from the API and populates the table. It's enough to comment out $(document).ready(staffUserGet).
 
 2. Modify the HTML for the table body (<tbody id="staff-table">) to include the hardcoded staff members, example below.
-
-```<tbody id="staff-table">
+```
+<tbody id="staff-table">
   <tr>
     <td class="custom-td"><img src="path/to/image1.jpg" alt="Staff Member 1"></td>
     <td class="custom-td">John</td>
@@ -99,7 +99,8 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
     <td class="custom-td duration"></td>
     <td class="custom-td expected-return"></td>
   </tr>
-</tbody>```
+</tbody>
+```
 
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
@@ -132,12 +133,12 @@ const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
 
 Change it to:
 
-```<td><select name="vehicle">
+<td><select name="vehicle">
       <option value="car">Car</option>
       <option value="motorcycle">Motorcycle</option>
       <option value="truck">Truck</option>
     </select>
-</td>```
+</td>
 
 2. Replace the JavaScript codes in the createDeliveryDriver and validateDelivery;
 
@@ -151,11 +152,11 @@ const vehicle = $('select[name="vehicle"]').val();
 
 Navbar is set up so you can replace the '#' with links, example below.
 
-```<ul class="dropdown-menu">
+<ul class="dropdown-menu">
     <li><a class="navbar-sub-menu-item" href="https://www.google.com/">Search</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.youtube.com/">Add</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.w3schools.com/">Remove</a></li>
-</ul>```
+</ul>
 
 ## Contact
 
