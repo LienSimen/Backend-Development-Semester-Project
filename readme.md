@@ -105,7 +105,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
 1. Add an if else statement in the addDelivery function, example below adds a scooter and a truck
-
+```
  if (vehicleType === 'motorcycle') {
     vehicleIcon = '<i class="bi bi-bicycle"></i>';
   } else if (vehicleType === 'truck') {
@@ -115,6 +115,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
   } else {
     vehicleIcon = '<i class="bi bi-car-front"></i>';
   }
+ ```
 
 Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has bicycle icon as I found no motorcycle icon.
 
@@ -129,35 +130,38 @@ const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
 **Change from Input to dropdown in Schedule Delivery**: To change the vehicle input field to a dropdown menu, follow the steps below.
 
 1. Replace the HTML code;
+```
 <td><input type="text" name="vehicle"></td>
+```
 
 Change it to:
-
+```
 <td><select name="vehicle">
       <option value="car">Car</option>
       <option value="motorcycle">Motorcycle</option>
       <option value="truck">Truck</option>
     </select>
 </td>
+```
 
 2. Replace the JavaScript codes in the createDeliveryDriver and validateDelivery;
-
+```
 const vehicle = $('input[name="vehicle"]').val();
-
+```
 Change it to:
-
+```
 const vehicle = $('select[name="vehicle"]').val();
-
+```
 **Navbar implementations**
 
 Navbar is set up so you can replace the '#' with links, example below.
-
+```
 <ul class="dropdown-menu">
     <li><a class="navbar-sub-menu-item" href="https://www.google.com/">Search</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.youtube.com/">Add</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.w3schools.com/">Remove</a></li>
 </ul>
-
+```
 ## Contact
 
 Simen Lien - simlie51727@stud.noroff.no - (https://github.com/dragelol)
