@@ -77,7 +77,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 1. Remove or comment out the code that fetches data from the API and populates the table. It's enough to comment out $(document).ready(staffUserGet).
 
 2. Modify the HTML for the table body (<tbody id="staff-table">) to include the hardcoded staff members, example below.
-```
+```html
 <tbody id="staff-table">
   <tr>
     <td class="custom-td"><img src="path/to/image1.jpg" alt="Staff Member 1"></td>
@@ -105,7 +105,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 **Adding New Vehicles**: To add new vehicles to the Schedule Delivery board, follow these steps:
 
 1. Add an if else statement in the addDelivery function, example below adds a scooter and a truck
-```
+```html
  if (vehicleType === 'motorcycle') {
     vehicleIcon = '<i class="bi bi-bicycle"></i>';
   } else if (vehicleType === 'truck') {
@@ -120,7 +120,7 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has bicycle icon as I found no motorcycle icon.
 
 2. Modify the validateDelivery function to include your new option, example below adds a scooter and a truck.
-```
+```javascript
 const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
   if (!vehicleRegex.test(vehicle)) {
       alert('Vehicle type must be either "car", "truck", "scooter" or "motorcycle".');
@@ -130,12 +130,12 @@ const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
 **Change from Input to dropdown in Schedule Delivery**: To change the vehicle input field to a dropdown menu, follow the steps below.
 
 1. Replace the HTML code;
-```
+```html
 <td><input type="text" name="vehicle"></td>
 ```
 
 Change it to:
-```
+```html
 <td><select name="vehicle">
       <option value="car">Car</option>
       <option value="motorcycle">Motorcycle</option>
@@ -145,17 +145,17 @@ Change it to:
 ```
 
 2. Replace the JavaScript codes in the createDeliveryDriver and validateDelivery;
-```
+```js
 const vehicle = $('input[name="vehicle"]').val();
 ```
 Change it to:
-```
+```javascript
 const vehicle = $('select[name="vehicle"]').val();
 ```
 **Navbar implementations**
 
 Navbar is set up so you can replace the '#' with links, example below.
-```
+```html
 <ul class="dropdown-menu">
     <li><a class="navbar-sub-menu-item" href="https://www.google.com/">Search</a></li>
     <li><a class="navbar-sub-menu-item" href="https://www.youtube.com/">Add</a></li>
