@@ -120,13 +120,13 @@ To use the Shedule Delivery and the Delivery Board, follow these steps:
 Icons can be found at https://icons.getbootstrap.com/. Motorcycle currently has bicycle icon as I found no motorcycle icon.
 
 2. Modify the validateDelivery function to include your new option, example below adds a scooter and a truck.
-
+```
 const vehicleRegex = /^(car|truck|motorcycle|scooter)$/i;
   if (!vehicleRegex.test(vehicle)) {
       alert('Vehicle type must be either "car", "truck", "scooter" or "motorcycle".');
       return false;
 }
-
+```
 **Change from Input to dropdown in Schedule Delivery**: To change the vehicle input field to a dropdown menu, follow the steps below.
 
 1. Replace the HTML code;
