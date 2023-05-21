@@ -19,18 +19,18 @@ A simple dashboard for the receptionist at WeDeliverTECH™ to keep track of sta
 
 ## Directory Structure
 
-<pre>
-├── `Documentation`:
-│        └── `jira.pdf`: Contains the reflection report
-├── `Web Application`: Contains all the code for the web application.
-│        └──`index.html`: The main HTML file containing the structure of the web application.
-│       `js/`:
-│        └── `wdt_app.js`: The main JavaScript file containing the application logic.
-│       `css/`:
-│        └──`styles.css`: The main CSS files for styling the application.
-│       `assets/`:
-│        └── `Company logo.png`: Contains the company logo.
-</pre>
+```
+├── Documentation
+│   └── jira.pdf: Contains the reflection report
+└── Web Application
+    ├── index.html: The main HTML file containing the structure of the web application.
+    ├── js
+    │   └── wdt_app.js: The main JavaScript file containing the application logic.
+    ├── css
+    │   └── styles.css: The main CSS files for styling the application.
+    └── assets
+        └── Company logo.png: Contains the company logo.
+```
 
 ## Installation
 
