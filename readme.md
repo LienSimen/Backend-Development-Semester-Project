@@ -164,6 +164,15 @@ Navbar is set up so you can replace the '#' with links, example below.
     <li><a class="navbar-sub-menu-item" href="https://www.w3schools.com/">Remove</a></li>
 </ul>
 ```
+<details>
+  <summary>Click here to show Grade + Feedback</summary>
+
+  ## Grade + Feedback
+
+  ![image](https://github.com/LienSimen/Backend-Development-Semester-Project/assets/122803724/94abe8cb-a423-4921-afd2-dd88413696b6)
+</details>
+
+
 ## Contact
 
 Simen Lien - simlie51727@stud.noroff.no - (https://github.com/LienSimen)
