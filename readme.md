@@ -165,10 +165,8 @@ Navbar is set up so you can replace the '#' with links, example below.
 </ul>
 ```
 <details>
-  <summary>Click here to show Grade + Feedback</summary>
-
-  ## Grade + Feedback
-
+  <summary> Click here to show Grade + Feedback</summary>
+    
   ![image](https://github.com/LienSimen/Backend-Development-Semester-Project/assets/122803724/94abe8cb-a423-4921-afd2-dd88413696b6)
 </details>
 
