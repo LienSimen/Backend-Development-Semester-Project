@@ -166,4 +166,4 @@ Navbar is set up so you can replace the '#' with links, example below.
 ```
 ## Contact
 
-Simen Lien - simlie51727@stud.noroff.no - (https://github.com/dragelol)
+Simen Lien - simlie51727@stud.noroff.no - (https://github.com/LienSimen)
